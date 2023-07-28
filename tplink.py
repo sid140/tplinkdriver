@@ -3,7 +3,7 @@
 import subprocess
 import argparse
 
-parser = argparse.ArgumentParser(description="A script to manage driver installation and system updates.")
+parser = argparse.ArgumentParser(description="A simple python script by sid140 to install tplink drivers on Kali or any Deb Linux")
 parser.add_argument("--install", action="store_true", help="Install the driver.")
 parser.add_argument("--sysupdate", action="store_true", help="Update the package lists.")
 parser.add_argument("--sysupgrade", action="store_true", help="Upgrade all installed packages.")
